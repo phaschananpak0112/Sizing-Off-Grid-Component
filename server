@@ -1,0 +1,153 @@
+#This file is the main 
+#Run this file with node => it will call each script
+#Pls, mind the directory route in this code, you have to correct to your own!
+
+
+const express = require('express');
+const request = require('request'); 
+const fs = require('fs');
+const JsonQuery = require(`./json-query`);
+const bodyParser = require('body-parser')
+const {spawn} = require('child_process');
+const { resolve } = require('path');
+const { json } = require('express/lib/response');
+const app = express();
+
+
+const LoadTable = require('./index/scripts/load-table');
+const Sizing = require('./index/scripts/main');
+const SunHour = require('./index/scripts/sun-hour');
+
+// express server
+app.use(bodyParser.urlencoded({ extended: false }))
+app.use(bodyParser.json())
+app.use(express.json());
+
+
+// listen port for request
+app.use('/index', express.static('index'));
+app.listen(4000);
+
+const jsonQuery = new JsonQuery();
+
+// Input information 
+app.get('/', (req, res) => {
+    //res.send("Welcome to Solar Size Calculator and Optimal Schedule for Appliances!!");
+    res.send("Start Off-Grid Sizing Conponents...");
+});
+
+
+app.get('/directory-schema', (req, res) => {
+    // res.send(req.params.name)
+    return new Promise((resolve, reject) => {
+        Promise.resolve()
+        .then(() => jsonQuery.getDirectorySchema(null, { deep: true }))
+        .then((ret) => res.json(ret))
+        .then((ret) => resolve(ret))
+        .catch((err) => reject(err));
+    });
+});
+
+
+app.get(`/schema/:name`, (req, res) => {
+    return new Promise((resolve, reject) => {
+        Promise.resolve()
+        .then(() => jsonQuery.getJson(req.params.name))
+        .then((ret) => res.json(ret))
+        .then((ret) => resolve(ret))
+        .catch((err) => reject(err));
+    });
+});
+
+
+// Load-Table Calculation
+app.post(`/loadtable`, (req,res) => {
+    return new Promise((resolve,reject) => {
+        
+        var appliances = req.body;
+        //console.log(JSON.stringify(appliances));
+        Promise.resolve()
+        .then(() => LoadTable(appliances))
+        .then((ret) => res.json(ret))
+        .then((ret) => resolve(ret))
+        .catch((err) => reject(err));
+    });
+});
+
+
+app.post(`/sizing`, (req,res) => {
+    return new Promise((resolve,reject) => {
+        
+        var usage = req.body;
+        //console.log(JSON.stringify(appliances));
+        Promise.resolve()
+        .then(() => Sizing(usage))
+        .then((ret) => res.json(ret))
+        .then((ret) => resolve(ret))
+        .catch((err) => reject(err));
+    });
+});
+
+
+app.post(`/sunhour`, (req,res) => {
+    return new Promise((resolve,reject) => {
+        
+        var location = req.body;
+        //console.log(JSON.stringify(location));
+        Promise.resolve()
+        .then(() => SunHour(location))
+        .then((ret) => res.json(ret))
+        .then((ret) => resolve({"SunHour" : ret
+        }))
+        .catch((err) => reject(err));
+    });
+});
+
+
+// Status
+app.get('/status', (req, res) => {
+    res.status(200).send('StatusCode : OK');
+});
+
+
+// Request sunHour 
+// I used for request sun hour testing, it doesn't a part of the main code 
+
+// app.post('/sunhour', (req, res) => {
+//     var address = req.body.Location;
+//     request('https://developer.nrel.gov/api/solar/solar_resource/v1.json?api_key=8U9Gc9Kvw49R8DFrOQNCv9PiO31s88NbngLeRaQ5&address='+ address, (error, response, body) => {
+//         console.log(`error :`, error);
+//         console.log(`statusCode sun-hour :`,response && response.statusCode );
+        
+//         var content = JSON.parse(body);
+//         var SunHour = content.outputs.avg_lat_tilt.annual;
+        
+//         var object = {
+//             "SunHour" : SunHour
+//         };
+       
+//         let data = JSON.stringify(object, null, 2);
+        
+//         fs.writeFileSync('./scripts/response/sunhour.json', data, (err) => {
+//             if (err) throw err;
+//         });
+
+//         res.json({
+//             result : object
+//         });
+//     });
+
+// });
+
+
+//Show the result of components size in off-grid
+
+app.post(`/result`, (req, res) => {
+    var Final = require(`./index/scripts/main`);
+    //var response = req.body;
+
+    Promise.resolve()
+    .then(() => Final(req.body))
+    .then((ret) => res.json(ret))
+    .catch((err) => console.error(err));
+});
