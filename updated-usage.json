@@ -1,0 +1,676 @@
+{
+    "location" : {
+        "lat" : 19.5084,
+        "lon" : 99.6139,
+        "SunHour" : 5.5
+    },
+    "appliances" : [
+        {
+            "title" : "Desktop Computer",
+            "id" : "desktop-computer",
+            "spec" : {
+                "consumption" : {
+                    "power" : {
+                        "value" : 295,
+                        "unit" : "W"
+                    }
+                },
+                "ref" : {
+                    "company" : "APPLE",
+                    "model": "iMac(Retina5K,27inch,2020)",
+                    "link" : "https://support.apple.com/kb/SP821?locale=th_TH"
+                }
+            },
+            "quantity" : {
+                "value" : 8,
+                "unit" : "piece"
+            },
+            "hoursinday" : { 
+                "value" : 2,
+                "unit" : "hour"
+            },
+            "daysinweek" : {
+                "value" : 5,
+                "unit" : "day"
+            }
+        },
+        {
+            "title" : "Laptop ",
+            "id" : "laptop",
+            "spec" : {
+                "consumption" : {
+                    "power" : {
+                        "value" : 60,
+                        "unit" : "W"
+                    }
+                },
+                "ref" : {
+                    "company" : "ASUS",
+                    "model": "X515JA-EJ505T",
+                    "link" : "https://www.powerbuy.co.th/th/asus-notebook-asus-x515ja-ej505t-slate-grey-8gb512gb-270162?gclid=CjwKCAjw4qCKBhAVEiwAkTYsPOvZOWtr1wzbVxj_HL_GVpsfURT_vcGkHP66eLy7OoMJ03POvLfIUBoC8BoQAvD_BwE"
+                }
+            },
+            "quantity" : {
+                "value" : 5,
+                "unit" : "piece"
+            },
+            "hoursinday" : { 
+                "value" : 5,
+                "unit" : "hour"
+            },
+            "daysinweek" : {
+                "value" : 4,
+                "unit" : "day"
+            }
+        },
+        {
+            "title" : "LCD TV",
+            "id" : "lcd-tv",
+            "spec" : {
+                "consumption" : {
+                    "power" : {
+                        "value" : 60,
+                        "unit" : "W"
+                    }
+                },
+                "ref" : {
+                    "company" : "LG",
+                    "model": "32LM575BPTC",
+                    "link" : "https://www.powerbuy.co.th/th/lg-led-tv-32-lg-hd-smart-dtv-32lm575bptc-atm-270334"
+                }
+            },
+            "quantity" : {
+                "value" : 1,
+                "unit" : "piece"
+            },
+            "hoursinday" : { 
+                "value" : 2,
+                "unit" : "hour"
+            },
+            "daysinweek" : {
+                "value" : 6,
+                "unit" : "day"
+            }
+        },
+        {
+            "title" : "DVD Player",
+            "id" : "dvd-player",
+            "spec" : {
+                "consumption" : {
+                    "power" : {
+                        "value" : 11,
+                        "unit" : "W"
+                    }
+                },
+                "ref" : {
+                    "company" : "SONY",
+                    "model": "SONYBDP-S1500",
+                    "link" : "https://www.homepro.co.th/p/1039490?lang=th&gclid=CjwKCAjw4qCKBhAVEiwAkTYsPAH3eDZbr7XYMxkS0f8Ur1k-sFNDnhVxKXKUCdktCkCf7kTCs_XzWhoCkTsQAvD_BwE"
+                }
+            },
+            "quantity" : {
+                "value" : 1,
+                "unit" : "piece"
+            },
+            "hoursinday" : { 
+                "value" : 2,
+                "unit" : "hour"
+            },
+            "daysinweek" : {
+                "value" : 5,
+                "unit" : "day"
+            }
+        },
+        {
+            "title" : "Celling Fan",
+            "id" : "celling-fan",
+            "spec" : {
+                "consumption" : {
+                    "power" : {
+                        "value" : 50,
+                        "unit" : "W"
+                    }
+                },
+                "ref" : {
+                    "company" : "HATARI",
+                    "model": "HT-C16R1(S)",
+                    "link" : "https://www.shopat24.com/p/Hatari-พัดลมติดเพดาน-16-นิ้ว-รุ่น-HT-C16R1-S/376650/?gclid=CjwKCAjw4qCKBhAVEiwAkTYsPJMW6yre7knWwQKMaucY9XyUvhjqF_9kBteeCODAWhpgr5KMOk_h6xoCvKMQAvD_BwE"
+                }
+            },
+            "quantity" : {
+                "value" : 9,
+                "unit" : "piece"
+            },
+            "hoursinday" : { 
+                "value" : 6,
+                "unit" : "hour"
+            },
+            "daysinweek" : {
+                "value" : 7,
+                "unit" : "day"
+            }
+        },
+        {
+            "title" : "Table Fan",
+            "id" : "table-fan",
+            "spec" : {
+                "consumption" : {
+                    "power" : {
+                        "value" : 43,
+                        "unit" : "W"
+                    }
+                },
+                "ref" : {
+                    "company" : "HATARI",
+                    "model": "HT-S14M3",
+                    "link" : "https://www.hatari.co.th/en/portable/ht-s14m3/"
+                }
+            },
+            "quantity" : {
+                "value" : 3,
+                "unit" : "piece"
+            },
+            "hoursinday" : { 
+                "value" : 6,
+                "unit" : "hour"
+            },
+            "daysinweek" : {
+                "value" : 7,
+                "unit" : "day"
+            }
+        },
+        {
+            "title" : "Inkjet Printer",
+            "id" : "printer",
+            "spec" : {
+                "consumption" : {
+                    "power" : {
+                        "value" : 50,
+                        "unit" : "W"
+                    }
+                },
+                "ref" : {
+                    "company" : "CANON",
+                    "model": "GM2070",
+                    "link" : "https://www.officemate.co.th/th/canon-gm2070-printer-inkjet-ofm4007340?gclid=CjwKCAjw4qCKBhAVEiwAkTYsPNI92l2vEe2krRBzwpGGO6BOmxz6XSWoTEf8B4bIZuK7WklfY4HXYxoCgaoQAvD_BwE&gclsrc=aw.ds"
+                }
+            },
+            "quantity" : {
+                "value" : 2,
+                "unit" : "piece"
+            },
+            "hoursinday" : { 
+                "value" : 1,
+                "unit" : "hour"
+            },
+            "daysinweek" : {
+                "value" : 3,
+                "unit" : "day"
+            }
+        },
+        {
+            "title" : "Fluorescent Light Bulb",
+            "id" : "fluorescent-bulb",
+            "spec" : {
+                "consumption" : {
+                    "power" : {
+                        "value" : 36,
+                        "unit" : "W"
+                    }
+                },
+                "ref" : {
+                    "company" : "PHILIPS",
+                    "model": "T8",
+                    "link" : "https://shopee.co.th/Philips-%E0%B8%AB%E0%B8%A5%E0%B8%AD%E0%B8%94%E0%B9%84%E0%B8%9F%E0%B8%9F%E0%B8%A5%E0%B8%B9%E0%B8%AD%E0%B8%AD%E0%B9%80%E0%B8%A3%E0%B8%AA%E0%B9%80%E0%B8%8B%E0%B8%99%E0%B8%95%E0%B9%8C-T8-36W-Daylight-i.28186160.2619140279"
+                }
+            },
+            "quantity" : {
+                "value" : 10,
+                "unit" : "piece"
+            },
+            "hoursinday" : { 
+                "value" : 8,
+                "unit" : "hour"
+            },
+            "daysinweek" : {
+                "value" : 7,
+                "unit" : "day"
+            }
+        },
+        {
+            "title" : "Cooler Water",
+            "id" : "cooler-water",
+            "spec" : {
+                "consumption" : {
+                    "power" : {
+                        "value" : 120,
+                        "unit" : "W"
+                    }
+                },
+                "ref" : {
+                    "company" : "TOSHIBA",
+                    "model": "RWF-C1664TK",
+                    "link" : "https://www.toshiba.co.th/product/Water%20Dispenser/581/RWF-C1664TK(W).html"
+                }
+            },
+            "quantity" : {
+                "value" : 1,
+                "unit" : "piece"
+            },
+            "hoursinday" : { 
+                "value" : 24,
+                "unit" : "hour"
+            },
+            "daysinweek" : {
+                "value" : 7,
+                "unit" : "day"
+            }
+        },
+        {
+            "title" : "Water Booster Pumping",
+            "id" : "water-pump",
+            "spec" : {
+                "consumption" : {
+                    "power" : {
+                        "value" : 250,
+                        "unit" : "W"
+                    }
+                },
+                "ref" : {
+                    "company" : "MITSUBISHI",
+                    "model": "EP-255R",
+                    "link" : "https://www.homepro.co.th/p/1109290"
+                }
+            },
+            "quantity" : {
+                "value" : 2,
+                "unit" : "piece"
+            },
+            "hoursinday" : { 
+                "value" : 5,
+                "unit" : "hour"
+            },
+            "daysinweek" : {
+                "value" : 7,
+                "unit" : "day"
+            }
+        },
+        {
+            "title" : "Water Purifier",
+            "id"    : "water-purifier",
+            "spec"  : {
+                "consumption" : {
+                    "power" : {
+                        "value" : 60,
+                        "unit" : "W"
+                    }
+                },
+                "ref" : {
+                    "company" : "MAZUMA",
+                    "model": "RO50GPD",
+                    "link" : "https://www.powerbuy.co.th/th/mazuma-%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%81%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B3-mazuma-ro-pure-life-202347"
+                }
+            },
+            "quantity" : {
+                "value" : 1,
+                "unit" : "piece"
+            },
+            "hoursinday" : { 
+                "value" : 12,
+                "unit" : "hour"
+            },
+            "daysinweek" : {
+                "value" : 7,
+                "unit" : "day"
+            }
+        },
+        {
+            "title" : "Clothes Washing Machine",
+            "id" : "clothes-washing",
+            "spec" : {
+                "consumption" : {
+                    "power" : {
+                        "value" : 1900,
+                        "unit" : "W"
+                    }
+                },
+                "ref" : {
+                    "company" : "HAIER",
+                    "model": "HW70-BP14636",
+                    "link" : "https://www.powerbuy.co.th/th/haier-%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%8B%E0%B8%B1%E0%B8%81%E0%B8%9C%E0%B9%89%E0%B8%B2%E0%B8%9D%E0%B8%B2%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2-7kg-haier-hw70-bp10829-248378"
+                }
+            },
+            "quantity" : {
+                "value" : 1,
+                "unit" : "piece"
+            },
+            "hoursinday" : { 
+                "value" : 1,
+                "unit" : "hour"
+            },
+            "daysinweek" : {
+                "value" : 3,
+                "unit" : "day"
+            }
+        }
+    ],
+    "pvarray" : {
+        "title" : "MONO PV Array 335W",
+        "id" : "monoarray-335",
+        "spec" : {
+            "consumption" : {
+                "data" : {
+                    "min" : {
+                        "wp" : {
+                            "value" : 250,
+                            "unit" : "Wp"
+                        },
+                        "amp" : {
+                            "value" : 7.82,
+                            "unit" : "A"
+                        },
+                        "volt" : {
+                            "value" : 32,
+                            "unit" : "Vac"
+                        }   
+                    },
+                    "max" : {
+                        "wp" : {
+                            "value" : 335,
+                            "unit" : "Wp"
+                        },
+                        "amp" : {
+                            "value" : 9.87,
+                            "unit" : "A"
+                        },
+                        "volt" : {
+                            "value" : 34,
+                            "unit" : "Vac"
+                        }   
+                    }
+                },
+                "dcvolt" : {
+                    "value" : 1000,
+                    "unit" : "Vdc"
+                },
+                "eff" : {
+                    "value" : 19.85,
+                    "unit" : "%"
+                } 
+            },
+            "ref" : {
+                "company" : "JINKO",
+                "material" : "monocrystalline",
+                "model" : "JKM335M-60H-V",
+                "cellnum" : {
+                    "value" : 120,
+                    "unit" : "cell"
+                },
+                "size" : {
+                    "length" : {
+                        "value" : 1.684,
+                        "unit" : "m"
+                    },
+                    "width" :  {
+                        "value" : 1.002,
+                        "unit" : "m"
+                    },
+                    "height" : {
+                        "value" : 0.035,
+                        "unit" : "m"
+                    },
+                    "cabledia" :  {
+                        "value" : 4,
+                        "unit" : "m^2"
+                    },
+                    "weight" :{
+                        "value" :19,
+                        "unit" : "kg"
+                    }  
+                },
+                "link" : "https://www.pvxchange.com/Solar-Modules/Jinko-Solar/JKM330M-60H-Cheetah-_1-995000227"
+            }
+        }
+    },
+    "battery" : {
+        "title" : "BYD Battery-Box Premium 5.1kW",
+        "id" : "byd-battery-5.1",
+        "spec" : {
+            "consumption" : {
+                "amp" : {
+                    "max" : {
+                        "value" : 25,
+                        "unit" : "A" 
+                    },
+                    "peak" : { 
+                        "value" : 50,
+                        "unit" : "A"
+                    },
+                    "peaktime" : {
+                        "value" : 5,
+                        "unit" : "s"
+                    }
+                },
+                "operatevolt" : {
+                    "max" : {
+                        "value" : 240,
+                        "unit" : "Vdc"
+                    },
+                    "min" : {
+                        "value" : 160,
+                        "unit" : "Vdc"
+                    }
+                }
+            },
+            "ref" : {
+                "company" : "BYD",
+                "model" : "HVS5.1",
+                "material" : "Lithium-Iron-Phosphate",
+                "DoD" : 96,
+                "Crate" : { 
+                    "energycap" : 5120,
+                    "amp" : {
+                        "value" : 204,
+                        "unit" : "A"
+                    }
+                },
+                "size" : {
+                    "length" : {
+                        "value" : 0.762,
+                        "unit" : "m"
+                    },
+                    "width" :  {
+                        "value" : 0.585,
+                        "unit" : "m"
+                    },
+                    "height" : {
+                        "value" : 0.295,
+                        "unit" : "m"
+                    },
+                    "weight" :{
+                        "value" :91,
+                        "unit" : "kg"
+                    }  
+                },
+                "link" : "https://www.photovoltaik-shop.com/byd-battery-box-premium-hvs-5-1-kwh.html"
+    
+            }
+        }
+    },
+    "controller" : {
+        "title" : "MPPT Charge Controller",
+        "id" : "mppt-controller",
+        "spec" : {
+            "consumption" : {
+                "involt" : {
+                    "max" : {
+                        "value" : 8,
+                        "unit" : "Vac"
+                    },
+                    "min" : {
+                        "value" : 68,
+                        "unit" : "Vac"
+                    }
+                },
+                "ratedamp" : {
+                    "charge" : {
+                        "value" : 40,
+                        "unit" : "A"
+                    },
+                    "discharge" : {
+                        "value" : 40,
+                        "unit" : "A"
+                    }
+                },
+                "ratedpower" : [
+                    { 
+                        "watt" : {
+                            "value" : 520,
+                            "unit" : "W"
+                        }, 
+                        "volt" : {
+                            "value" : 12,
+                            "unit" : "V"
+                        } 
+                    },{
+                        "watt" : {
+                            "value" : 1040,
+                            "unit" : "W"
+                        }, 
+                        "volt" :{
+                            "value" :24,
+                            "unit" : "V"
+                        }
+                    },{
+                        "watt" : {
+                            "value" : 1560,
+                            "unit" : "W"
+                        }, 
+                        "volt" :{
+                            "value" : 36,
+                            "unit" : "V"
+                        } 
+                    }
+                ]
+            }, 
+            "ref" : {
+                "company" : "EPEVER",
+                "model" : "XTRA4415N",
+                "batttype" : [{
+                    "type" : "Leadacid"
+                    },{
+                    "type" : "Lithium"
+                }],
+                "sysdcvolt" : [{
+                    "volt" : {
+                        "value" : 12,
+                        "unit" : "Vdc"
+                    }
+                },{
+                    "volt" : {
+                        "value" : 24,
+                        "unit" : "Vdc"
+                    }
+                },{
+                    "volt" : {
+                        "value" : 36,
+                        "unit" : "Vdc"
+                    }
+                },{
+                    "volt" : {
+                        "value" : 48,
+                        "unit" : "Vdc"
+                    }
+                }],
+                "coneff" : {
+                    "value" : 98.50,
+                    "unit" : "%"
+                },
+                "trackeff" : {
+                    "value" : 99.50,
+                    "unit" : "%"
+                },
+                "link" : "https://www.epsolarpv.com/product/45.html"    
+            }
+        }
+    },
+    "inverter" : {
+        "title" : "SMA Inverter 7000W",
+        "id" : "inverter-7000",
+        "spec" : {
+            "consumption" : {
+                "max" : {
+                    "pvpower" : {
+                        "value" : 8000,
+                        "unit" : "Wp"
+                    },
+                    "acpower" : {
+                        "value" : 7000,
+                        "unit" : "W"
+                    },
+                    "dcvolt" : {
+                        "value" : 700,
+                        "unit" : "Vdc"
+                    },
+                    "dcamp" : {
+                        "value" : 22,
+                        "unit" : "A"
+                    },
+                    "eff" : {
+                        "value" : 98,
+                        "unit" : "%"
+                    }
+                },
+                "nominal" : {
+                    "acpower" : {
+                        "value" : 0,
+                        "unit" : "W"
+                    },
+                    "dcpower" : {
+                        "value" : 7200,
+                        "unit" : "W"
+                    }
+                }
+            },
+            "ref" : {
+                "company" : "SMA",
+                "model" : "Sunny-Mini-Central-7000-TL",
+                "numinputdc" : {
+                    "value" : 4,
+                    "unit" : "chanel"
+                },
+                "size" : {
+                    "length" : {
+                        "value" : 0.468,
+                        "unit" : "m"
+                    },
+                    "width" :  {
+                        "value" : 0.613,
+                        "unit" : "m"
+                    },
+                    "height" : {
+                        "value" : 0.242,
+                        "unit" : "m"
+                    },
+                    "weight" :  {
+                        "value" : 32,
+                        "unit" : "kg"
+                    }   
+                },
+                "link" : "https://www.pvxchange.com/Solar-Inverters/SMA/Sunny-Mini-Central-7000-TL_1-2300077"
+            }
+        }
+    },
+    "safetyFac" : {
+        "value" : 1.25,
+        "unit" : ""
+    },
+    "daysautonumy" : { 
+        "value" : 3,
+        "unit" : "day"
+    },
+    "batteryVolt" : {
+        "value" : 48,
+        "unit" : "day"
+    }
+}
