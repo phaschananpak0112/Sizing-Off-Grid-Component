@@ -1,0 +1,20 @@
+#This is an example format of the appliances information.
+#I separately correct the appliance group; each gruop consists of different spec or provider 
+#This part used for the suggestion choices when user input the data to web UI
+
+
+{
+    "title" : "Air Conditioner",
+    "id" : "1ton-air-conditioner",
+    "spec" : {
+        "consumption" : {
+            "power" : 1060,
+            "unit" : "W"    
+        },
+        "ref" : {
+            "company" : "SAMSUNG",
+            "model": " AR13TYHZCWKNST",
+            "link" : "https://www.powerbuy.co.th/th/samsung-แอร์-samsung-inverter-ar13tyhzcwknst-256082?gclid=CjwKCAjw4qCKBhAVEiwAkTYsPC-jU0oa7aOG5wiwcX4HJQ0GxGIzQY-hKLPX1sRucrfeNzFmusgWGhoC0akQAvD_BwE"
+        }
+    }
+}
