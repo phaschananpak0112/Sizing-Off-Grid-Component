@@ -1,0 +1,364 @@
+{
+    "location" : {
+        "lat" : 19.5084,
+        "lon" : 99.6139
+    },
+    "appliances" : [
+        {
+            "title" : "Desktop Computer",
+            "id" : "desktop-computer",
+            "spec" : {
+                "consumption" : {
+                    "power" : 295
+                },
+                "ref" : {
+                    "company" : "APPLE",
+                    "model": "iMac(Retina5K,27inch,2020)",
+                    "link" : "https://support.apple.com/kb/SP821?locale=th_TH"
+                }
+            },
+            "quantity" : 8,
+            "hoursinday" : 2,
+            "daysinweek" : 5
+        },
+        {
+            "title" : "Laptop ",
+            "id" : "laptop",
+            "spec" : {
+                "consumption" : {
+                    "power" : 60
+                },
+                "ref" : {
+                    "company" : "ASUS",
+                    "model": "X515JA-EJ505T",
+                    "link" : "https://www.powerbuy.co.th/th/asus-notebook-asus-x515ja-ej505t-slate-grey-8gb512gb-270162?gclid=CjwKCAjw4qCKBhAVEiwAkTYsPOvZOWtr1wzbVxj_HL_GVpsfURT_vcGkHP66eLy7OoMJ03POvLfIUBoC8BoQAvD_BwE"
+                }
+            },
+            "quantity" : 5,
+            "hoursinday" : 5,
+            "daysinweek" : 4
+        },
+        {
+            "title" : "LCD TV",
+            "id" : "lcd-tv",
+            "spec" : {
+                "consumption" : {
+                    "power" : 60
+                },
+                "ref" : {
+                    "company" : "LG",
+                    "model": "32LM575BPTC",
+                    "link" : "https://www.powerbuy.co.th/th/lg-led-tv-32-lg-hd-smart-dtv-32lm575bptc-atm-270334"
+                }
+            },
+            "quantity" : 1,
+            "hoursinday" : 2,
+            "daysinweek" : 6
+        },
+        {
+            "title" : "DVD Player",
+            "id" : "dvd-player",
+            "spec" : {
+                "consumption" : {
+                    "power" : 11
+                },
+                "ref" : {
+                    "company" : "SONY",
+                    "model": "SONYBDP-S1500",
+                    "link" : "https://www.homepro.co.th/p/1039490?lang=th&gclid=CjwKCAjw4qCKBhAVEiwAkTYsPAH3eDZbr7XYMxkS0f8Ur1k-sFNDnhVxKXKUCdktCkCf7kTCs_XzWhoCkTsQAvD_BwE"
+                }
+            },
+            "quantity" : 1,
+            "hoursinday" : 2,
+            "daysinweek" : 5
+        },
+        {
+            "title" : "Celling Fan",
+            "id" : "celling-fan",
+            "spec" : {
+                "consumption" : {
+                    "power" : 50
+                },
+                "ref" : {
+                    "company" : "HATARI",
+                    "model": "HT-C16R1(S)",
+                    "link" : "https://www.shopat24.com/p/Hatari-พัดลมติดเพดาน-16-นิ้ว-รุ่น-HT-C16R1-S/376650/?gclid=CjwKCAjw4qCKBhAVEiwAkTYsPJMW6yre7knWwQKMaucY9XyUvhjqF_9kBteeCODAWhpgr5KMOk_h6xoCvKMQAvD_BwE"
+                }
+            },
+            "quantity" : 9,
+            "hoursinday" : 6,
+            "daysinweek" : 7
+        },
+        {
+            "title" : "Table Fan",
+            "id" : "table-fan",
+            "spec" : {
+                "consumption" : {
+                    "power" : 43
+                },
+                "ref" : {
+                    "company" : "HATARI",
+                    "model": "HT-S14M3",
+                    "link" : "https://www.hatari.co.th/en/portable/ht-s14m3/"
+                }
+            },
+            "quantity" : 3,
+            "hoursinday" : 6,
+            "daysinweek" : 7
+        },
+        {
+            "title" : "Inkjet Printer",
+            "id" : "printer",
+            "spec" : {
+                "consumption" : {
+                    "power" : 50
+                },
+                "ref" : {
+                    "company" : "CANON",
+                    "model": "GM2070",
+                    "link" : "https://www.officemate.co.th/th/canon-gm2070-printer-inkjet-ofm4007340?gclid=CjwKCAjw4qCKBhAVEiwAkTYsPNI92l2vEe2krRBzwpGGO6BOmxz6XSWoTEf8B4bIZuK7WklfY4HXYxoCgaoQAvD_BwE&gclsrc=aw.ds"
+                }
+            },
+            "quantity" : 2,
+            "hoursinday" : 1,
+            "daysinweek" : 3
+        },
+        {
+            "title" : "Fluorescent Light Bulb",
+            "id" : "fluorescent-bulb",
+            "spec" : {
+                "consumption" : {
+                    "power" : 36
+                },
+                "ref" : {
+                    "company" : "PHILIPS",
+                    "model": "T8",
+                    "link" : "https://shopee.co.th/Philips-%E0%B8%AB%E0%B8%A5%E0%B8%AD%E0%B8%94%E0%B9%84%E0%B8%9F%E0%B8%9F%E0%B8%A5%E0%B8%B9%E0%B8%AD%E0%B8%AD%E0%B9%80%E0%B8%A3%E0%B8%AA%E0%B9%80%E0%B8%8B%E0%B8%99%E0%B8%95%E0%B9%8C-T8-36W-Daylight-i.28186160.2619140279"
+                }
+            },
+            "quantity" : 10,
+            "hoursinday" : 8,
+            "daysinweek" : 7
+        },
+        {
+            "title" : "Cooler Water",
+            "id" : "cooler-water",
+            "spec" : {
+                "consumption" : {
+                    "power" : 120
+                },
+                "ref" : {
+                    "company" : "TOSHIBA",
+                    "model": "RWF-C1664TK",
+                    "link" : "https://www.toshiba.co.th/product/Water%20Dispenser/581/RWF-C1664TK(W).html"
+                }
+            },
+            "quantity" : 1,
+            "hoursinday" : 24,
+            "daysinweek" : 7
+        },
+        {
+            "title" : "Water Booster Pumping",
+            "id" : "water-pump",
+            "spec" : {
+                "consumption" : {
+                    "power" : 250
+                },
+                "ref" : {
+                    "company" : "MITSUBISHI",
+                    "model": "EP-255R",
+                    "link" : "https://www.homepro.co.th/p/1109290"
+                }
+            },
+            "quantity" : 2,
+            "hoursinday" : 5,
+            "daysinweek" : 7
+        },
+        {
+            "title" : "Water Purifier",
+            "id"    : "water-purifier",
+            "spec"  : {
+                "consumption" : {
+                    "power" : 60
+                },
+                "ref" : {
+                    "company" : "MAZUMA",
+                    "model": "RO50GPD",
+                    "link" : "https://www.powerbuy.co.th/th/mazuma-%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%81%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B3-mazuma-ro-pure-life-202347"
+                }
+            },
+            "quantity" : 1,
+            "hoursinday" : 12,
+            "daysinweek" : 7
+        },
+        {
+            "title" : "Clothes Washing Machine",
+            "id" : "clothes-washing",
+            "spec" : {
+                "consumption" : {
+                    "power" : 1900
+                },
+                "ref" : {
+                    "company" : "HAIER",
+                    "model": "HW70-BP14636",
+                    "link" : "https://www.powerbuy.co.th/th/haier-%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%8B%E0%B8%B1%E0%B8%81%E0%B8%9C%E0%B9%89%E0%B8%B2%E0%B8%9D%E0%B8%B2%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2-7kg-haier-hw70-bp10829-248378"
+                }
+            },
+            "quantity" : 1,
+            "hoursinday" : 1,
+            "daysinweek" : 3
+        }
+    ],
+    "pvarray" : {
+        "title" : "MONO PV Array 335W",
+        "id" : "monoarray-335",
+        "spec" : {
+            "consumption" : {
+                "data" : {
+                    "min" : {
+                        "wp" : 250,
+                        "amp" : 7.82,
+                        "volt" : 32   
+                    },
+                    "max" : {
+                        "wp" : 335,
+                        "amp" : 9.87,
+                        "volt" : 34   
+                    }
+                },
+                "dcvolt" : 1000,
+                "eff" : 19.85 
+            },
+            "ref" : {
+                "company" : "JINKO",
+                "material" : "monocrystalline",
+                "model" : "JKM335M-60H-V",
+                "cellnum" : 120,
+                "size" : {
+                    "length" : 1.684,
+                    "width" :  1.002,
+                    "height" : 0.035,
+                    "cabledia" :  4,
+                    "weight" : 19 
+                },
+                "link" : "https://www.pvxchange.com/Solar-Modules/Jinko-Solar/JKM330M-60H-Cheetah-_1-995000227"
+            }
+        }
+    },
+    "battery" : {
+        "title" : "BYD Battery-Box Premium 5.1kW",
+        "id" : "byd-battery-5.1",
+        "spec" : {
+            "consumption" : {
+                "amp" : {
+                    "max" : 25,
+                    "peak" : 50,
+                    "peaktime" : 5
+                },
+                "operatevolt" : {
+                    "max" : 240,
+                    "min" : 160
+                    
+                }
+            },
+            "ref" : {
+                "company" : "BYD",
+                "model" : "HVS5.1",
+                "material" : "Lithium-Iron-Phosphate",
+                "DoD" : 96,
+                "Crate" : { 
+                    "energycap" : 5120,
+                    "amp" :204
+                },
+                "size" : {
+                    "length" : 0.762,
+                    "width" : 0.585,
+                    "height" : 0.295,
+                    "weight" : 91
+                },
+                "link" : "https://www.photovoltaik-shop.com/byd-battery-box-premium-hvs-5-1-kwh.html"
+    
+            }
+        }
+    },
+    "controller" : {
+        "title" : "MPPT Charge Controller",
+        "id" : "mppt-controller",
+        "spec" : {
+            "consumption" : {
+                "involt" : {
+                    "max" : 8,
+                    "min" : 68
+                },
+                "ratedamp" : {
+                    "charge" : 40,
+                    "discharge" : 40 
+                },
+                "ratedpower" : [
+                    { 
+                        "watt" : 520, 
+                        "volt" : 12
+                    },{
+                        "watt" : 1040, 
+                        "volt" : 24
+                    },{
+                        "watt" : 1560, 
+                        "volt" : 36
+                    }
+                ]
+            }, 
+        
+            "ref" : {
+                "company" : "EPEVER",
+                "model" : "XTRA4415N",
+                "batttype" : [{
+                    "type" : "Leadacid"
+                    },{
+                    "type" : "Lithium"
+                    }],
+                "sysdcvolt" : [{
+                    "volt" : 12
+                    },{
+                    "volt" : 24
+                    },{
+                    "volt" : 36
+                    },{
+                    "volt" : 48
+                }],
+                "coneff" : 98.50,
+                "trackeff" : 99.50,
+                "link" : "https://www.epsolarpv.com/product/45.html"
+    
+    
+            }
+        }
+    },
+    "inverter" : {
+        "title" : "Inverter",
+        "id" : "inverter",
+        "spec" : {
+            "consumption" : {
+                "acpower" : 4600,
+                "dcpower" : 4375,
+                "dcvolt" :  600,
+                "dcamp" :  16,
+                "eff" : 96.8
+            },
+            "ref" : {
+                "company" : "ABB",
+                "model" : "PVI-4.2-TL-OUTD-S(UNO)",
+                "gridnum" : 1,
+                "numtracker" : 2,
+                "size" : {
+                    "length" : 0.617,
+                    "width" :  0.325,
+                    "height" : 0.22,
+                    "numinputdc" : 3,
+                    "weight" :  17.5    
+                },
+                "link" : "https://www.pvxchange.com/Solar-Inverters/ABB/PVI-4-2-TL-OUTD-S-UNO-_1-995000239"
+            }
+        }
+    },
+    "daysautonumy" : 4
+}
