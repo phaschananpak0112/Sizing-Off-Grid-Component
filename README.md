@@ -1,2 +1,2 @@
 # Sizing-Off-Grid-Component
-This repository is created as partial part of my master's thesis. Sizing of components in the PV off-grid system is suggested in this code. The suggested size is the minimum safety value, smaller sizes are not recommended.
+I made this repository as a component of my master's thesis. This code offers suggestions for the component sizes in the PV off-grid system. Smaller sizes are not advised; the indicated size is the minimal safety value. Hope my work can help you somehow!
